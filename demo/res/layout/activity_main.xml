@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+
+      
+
+  </FrameLayout>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/button_capture"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="拍照" />
+
+      <Button
+          android:id="@+id/button_switchcam"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="切换" />
+
+      <Button
+          android:id="@+id/button_demo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="其他" />
+
+  </LinearLayout>
+  
+  
+</LinearLayout>

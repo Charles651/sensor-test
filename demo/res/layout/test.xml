@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按键："
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="按键测试"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sensor值："
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textSensor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/textSensor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="距离传感器："
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="sensor TEST"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_2D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="On2DClick"
+        android:text="2D" />
+
+    <Button
+        android:id="@+id/button_3D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="On3DClick"
+        android:text="3D" />
+
+</LinearLayout>
